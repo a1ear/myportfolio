@@ -1,0 +1,10 @@
+.App {
+  position: relative;
+}
+
+/* Smooth section transitions */
+section {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
