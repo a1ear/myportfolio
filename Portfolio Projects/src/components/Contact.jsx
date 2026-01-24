@@ -54,14 +54,14 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       label: 'Email',
-      value: 'anton.magbanua@example.com',
-      link: 'mailto:anton.magbanua@example.com'
+      value: 'jshant.magbanua@gmail.com',
+      link: 'mailto:jshant.magbanua@gmail.com'
     },
     {
       icon: <FaPhone />,
       label: 'Phone',
-      value: '+63 XXX XXX XXXX',
-      link: 'tel:+63XXXXXXXXX'
+      value: '+63 945 966 7007',
+      link: 'tel:+639459667007'
     },
     {
       icon: <FaMapMarkerAlt />,
@@ -72,9 +72,9 @@ const Contact = () => {
   ]
 
   const socialLinks = [
-    { icon: <FaLinkedin />, url: '#', label: 'LinkedIn' },
-    { icon: <FaGithub />, url: '#', label: 'GitHub' },
-    { icon: <FaFacebook />, url: '#', label: 'Facebook' }
+    { icon: <FaLinkedin />, url: 'www.linkedin.com/in/joshantonmagbanua', label: 'LinkedIn' },
+    { icon: <FaGithub />, url: 'https://github.com/a1ear', label: 'GitHub' },
+    { icon: <FaFacebook />, url: 'https://www.facebook.com/avedzxc/', label: 'Facebook' }
   ]
 
   return (
@@ -149,7 +149,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="your.email@example.com"
+                placeholder="your.jshant.magbanua@gmail.com"
               />
             </div>
             <div className="form-group">
