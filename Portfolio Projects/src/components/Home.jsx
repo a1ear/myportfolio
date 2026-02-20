@@ -5,8 +5,6 @@ import './Home.css'
 const Home = () => {
   const heroRef = useRef(null)
 
-  // Put your profile picture in public folder: name it profile.jpg (or profile.png and set profileImage to '/profile.png').
-  // If the image is missing, the tech icons placeholder shows instead.
   const profileImage = '/profile.jpeg'
 
   useEffect(() => {
@@ -56,7 +54,7 @@ const Home = () => {
               Backend Developer & Flutter Mobile Developer
             </h2>
             <p className="hero-description fade-in-up">
-              A versatile and adaptive BSIT4A student passionate about creating
+              A versatile and adaptive BSIT graduate passionate about creating
               innovative solutions through backend development, mobile applications,
               and creative design. Combining technical expertise with creative vision
               to deliver exceptional digital experiences.
@@ -106,4 +104,5 @@ const Home = () => {
 }
 
 export default Home
+
 
