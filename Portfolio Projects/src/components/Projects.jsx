@@ -34,6 +34,13 @@ const frontendProjects = [
     tags: ['JavaScript', 'Frontend', 'UI/UX', 'Dashboard'],
     githubUrl: '#',
     demoUrl: '#'
+  },
+  {
+    title: 'E-Commerce Frontend',
+    description: 'Beautiful and intuitive e-commerce frontend with shopping cart, product filtering, and checkout flow. Built with modern JavaScript frameworks and responsive design principles.',
+    tags: ['JavaScript', 'Frontend', 'E-Commerce', 'UI/UX'],
+    githubUrl: '#',
+    demoUrl: '#'
   }
 ]
 
