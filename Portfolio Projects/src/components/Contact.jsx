@@ -149,7 +149,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="Email"
+                placeholder="Your Email"
               />
             </div>
             <div className="form-group">
@@ -187,5 +187,6 @@ const Contact = () => {
 }
 
 export default Contact
+
 
 
