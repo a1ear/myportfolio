@@ -13,10 +13,10 @@ const backendProjects = [
   },
   {
     title: 'Tata-Joy Rice Trading',
-    description: 'The website features a clean, modern design with natural tones by colors schemes requested by the company, creating a professional and trustworthy feel.',
-    tags: ['PHP', 'CSS', 'Blog'],
+    description: 'A PHP-based gym inventory management system with a logistics dashboard, featuring real-time stock tracking, low stock alerts, and full CRUD operations for managing gym equipment and supplies.',
+    tags: ['PHP', 'Bootstrap 5', 'MYSQL','HelioHost','Vanilla JS','CRUD'],
     githubUrl: '#',
-    demoUrl: 'https://antm.helioho.st/frontend-dev/TataJoyWebsite/index.php'
+    demoUrl: 'https://antm.helioho.st/backend-dev/simple_inventory/login.php'
   }
 ]
 
@@ -128,6 +128,7 @@ const Projects = () => {
 }
 
 export default Projects
+
 
 
 
