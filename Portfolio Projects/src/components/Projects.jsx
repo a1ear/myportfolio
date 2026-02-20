@@ -36,11 +36,11 @@ const frontendProjects = [
     demoUrl: 'https://antm.helioho.st/frontend-dev/photowebsite/index.php'
   },
   {
-    title: 'E-Commerce Frontend',
-    description: 'Beautiful and intuitive e-commerce frontend with shopping cart, product filtering, and checkout flow. Built with modern JavaScript frameworks and responsive design principles.',
-    tags: ['JavaScript', 'Frontend', 'E-Commerce', 'UI/UX'],
+    title: 'Iphone 17 Pro Max Showcase',
+    description: 'A modern Bootstrap 5 product showcase website designed to highlight the iPhone 17 Pro Max with a premium, Apple-inspired layout and fully responsive design. The project demonstrates advanced use of the Bootstrap grid system, utility classes, and structured component sections.',
+    tags: ['Bootstrap 5', 'Responsive Design', 'UI/UX Design', 'Front-End Development'],
     githubUrl: '#',
-    demoUrl: '#'
+    demoUrl: 'https://antm.helioho.st/frontend-dev/Bootstrap%20Showcase/index.html'
   }
 ]
 
@@ -129,4 +129,5 @@ const Projects = () => {
 }
 
 export default Projects
+
 
