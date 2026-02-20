@@ -47,28 +47,28 @@ const Skills = () => {
       title: 'Backend Development',
       icon: <FaServer />,
       skills: [
-        { name: 'PHP', level: 90, icon: <FaPhp /> },
-        { name: 'MySQL', level: 85, icon: <FaDatabase /> },
-        { name: 'REST APIs', level: 88, icon: <FaCode /> },
-        { name: 'Postman', level: 80, icon: <SiPostman /> }
+        { name: 'Back End', level: 80, icon: <FaPhp /> },
+        { name: 'MySQL', level: 70, icon: <FaDatabase /> },
+        { name: 'REST APIs', level: 65, icon: <FaCode /> },
+        { name: 'Front End', level: 75, icon: <SiPostman /> }
       ]
     },
     {
       title: 'Mobile Development',
       icon: <FaMobile />,
       skills: [
-        { name: 'Flutter', level: 85, icon: <SiFlutter /> },
-        { name: 'Dart', level: 80, icon: <FaCode /> },
-        { name: 'Mobile UI/UX', level: 82, icon: <FaPalette /> }
+        { name: 'Flutter', level: 75, icon: <SiFlutter /> },
+        { name: 'Dart', level: 70, icon: <FaCode /> },
+        { name: 'Mobile UI/UX', level: 79, icon: <FaPalette /> }
       ]
     },
     {
       title: 'Creative Skills',
       icon: <FaPalette />,
       skills: [
-        { name: 'Graphic Design', level: 85, icon: <FaPalette /> },
-        { name: 'Photoshop', level: 88, icon: <FaPalette /> },
-        { name: 'Video Editing', level: 80, icon: <FaVideo /> },
+        { name: 'Graphic Design', level: 68, icon: <FaPalette /> },
+        { name: 'Photo Editing', level: 70, icon: <FaPalette /> },
+        { name: 'Video Editing', level: 809, icon: <FaVideo /> },
         { name: 'Photography', level: 82, icon: <FaCamera /> }
       ]
     }
@@ -120,4 +120,5 @@ const Skills = () => {
 }
 
 export default Skills
+
 
