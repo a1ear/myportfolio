@@ -111,6 +111,7 @@
 }
 
 .profile-picture {
+   border-radius: 50%
   position: absolute;
   inset: 0;
   width: 100%;
@@ -276,3 +277,4 @@
     height: 250px;
   }
 }
+
