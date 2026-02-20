@@ -5,6 +5,10 @@ import './Home.css'
 const Home = () => {
   const heroRef = useRef(null)
 
+  // Put your profile picture in public folder as profile.jpg (or .png)
+  // Then it will show here. If no image, the tech icons placeholder shows.
+  const profileImage = '/profile.jpg'
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -25,7 +29,6 @@ const Home = () => {
   }, [])
 
   const handleResumeDownload = () => {
-    // Open resume in new tab, or download if file exists
     const link = document.createElement('a')
     link.href = '/resume.pdf'
     link.download = 'Anton_Magbanua_Resume.pdf'
@@ -53,9 +56,9 @@ const Home = () => {
               Backend Developer & Flutter Mobile Developer
             </h2>
             <p className="hero-description fade-in-up">
-              A versatile and adaptive BSIT4A student passionate about creating 
-              innovative solutions through backend development, mobile applications, 
-              and creative design. Combining technical expertise with creative vision 
+              A versatile and adaptive BSIT4A student passionate about creating
+              innovative solutions through backend development, mobile applications,
+              and creative design. Combining technical expertise with creative vision
               to deliver exceptional digital experiences.
             </p>
             <div className="hero-buttons fade-in-up">
@@ -68,12 +71,23 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image fade-in">
-            <div className="image-placeholder">
-              <div className="tech-icons">
-                <div className="icon-float icon-1">PHP</div>
-                <div className="icon-float icon-2">Flutter</div>
-                <div className="icon-float icon-3">MySQL</div>
-                <div className="icon-float icon-4">API</div>
+            <div className="image-wrapper">
+              <img
+                src={profileImage}
+                alt="Anton Magbanua"
+                className="profile-picture"
+                onError={(e) => {
+                  e.target.style.display = 'none'
+                  e.target.nextElementSibling?.classList.add('show')
+                }}
+              />
+              <div className="image-placeholder">
+                <div className="tech-icons">
+                  <div className="icon-float icon-1">PHP</div>
+                  <div className="icon-float icon-2">Flutter</div>
+                  <div className="icon-float icon-3">MySQL</div>
+                  <div className="icon-float icon-4">API</div>
+                </div>
               </div>
             </div>
           </div>
@@ -87,4 +101,3 @@ const Home = () => {
 }
 
 export default Home
-
