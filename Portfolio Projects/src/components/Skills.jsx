@@ -68,7 +68,7 @@ const Skills = () => {
       skills: [
         { name: 'Graphic Design', level: 68, icon: <FaPalette /> },
         { name: 'Photo Editing', level: 70, icon: <FaPalette /> },
-        { name: 'Video Editing', level: 809, icon: <FaVideo /> },
+        { name: 'Video Editing', level: 80, icon: <FaVideo /> },
         { name: 'Photography', level: 82, icon: <FaCamera /> }
       ]
     }
@@ -120,5 +120,6 @@ const Skills = () => {
 }
 
 export default Skills
+
 
 
