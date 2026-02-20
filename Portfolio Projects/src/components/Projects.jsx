@@ -12,7 +12,7 @@ const backendProjects = [
     demoUrl: 'https://antm.helioho.st/GymSync/login.php'
   },
   {
-    title: 'Tata-Joy Rice Trading',
+    title: 'Gym sync Inventory System',
     description: 'A PHP-based gym inventory management system with a logistics dashboard, featuring real-time stock tracking, low stock alerts, and full CRUD operations for managing gym equipment and supplies.',
     tags: ['PHP', 'Bootstrap 5', 'MYSQL','HelioHost','Vanilla JS','CRUD'],
     githubUrl: '#',
@@ -128,6 +128,7 @@ const Projects = () => {
 }
 
 export default Projects
+
 
 
 
