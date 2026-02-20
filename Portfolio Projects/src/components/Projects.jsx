@@ -82,8 +82,7 @@ const Projects = () => {
         <h2 className="section-title">Featured Projects</h2>
         <p className="projects-intro">
           A collection of projects showcasing my expertise in backend development
-          and frontend development. Add more entries in the Backend and Frontend
-          arrays in <code>Projects.jsx</code> to show additional projects.
+          and frontend development.
         </p>
         <div className="projects-content" ref={projectsRef}>
           {categoryConfig.map((category) => (
@@ -129,5 +128,6 @@ const Projects = () => {
 }
 
 export default Projects
+
 
 
