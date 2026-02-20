@@ -149,7 +149,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="your.jshant.magbanua@gmail.com"
+                placeholder="Email"
               />
             </div>
             <div className="form-group">
@@ -187,4 +187,5 @@ const Contact = () => {
 }
 
 export default Contact
+
 
