@@ -76,6 +76,10 @@ const Home = () => {
                 src={profileImage}
                 alt="Anton Magbanua"
                 className="profile-picture"
+                onLoad={(e) => {
+                  const placeholder = e.target.nextElementSibling
+                  if (placeholder) placeholder.classList.remove('show')
+                }}
                 onError={(e) => {
                   e.target.style.display = 'none'
                   const placeholder = e.target.nextElementSibling
