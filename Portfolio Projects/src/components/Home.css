@@ -103,8 +103,6 @@
   width: 400px;
   height: 400px;
   position: relative;
-  border-radius: 50%;
-  overflow: hidden;
   box-shadow: 0 20px 60px rgba(37, 99, 235, 0.3);
   animation: float 6s ease-in-out infinite;
 }
@@ -116,6 +114,8 @@
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .image-placeholder {
@@ -126,10 +126,15 @@
   align-items: center;
   justify-content: center;
   z-index: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
 
 .image-placeholder.show {
   z-index: 1;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .tech-icons {
@@ -147,6 +152,7 @@
   color: var(--primary-blue);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   animation: floatIcon 3s ease-in-out infinite;
+  z-index: 2;
 }
 
 .icon-1 {
