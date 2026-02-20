@@ -27,7 +27,7 @@ const About = () => {
   const highlights = [
     {
       icon: <FaGraduationCap />,
-      title: 'BSIT4A Student',
+      title: 'BSIT graduate',
       description: 'Pursuing excellence in Information Technology with consistent academic achievement'
     },
     {
@@ -56,7 +56,7 @@ const About = () => {
             <div className="about-intro">
               <h3>Versatile & Adaptive Developer</h3>
               <p>
-                I'm Anton Magbanua, a passionate BSIT4A student who thrives at the intersection 
+                I'm Anton Magbanua, a passionate BSIT graduate who thrives at the intersection 
                 of technology and creativity. With a strong foundation in backend development and 
                 mobile app creation, I bring a unique blend of technical expertise and creative 
                 vision to every project.
@@ -91,4 +91,5 @@ const About = () => {
 }
 
 export default About
+
 
