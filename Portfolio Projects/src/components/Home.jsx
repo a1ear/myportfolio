@@ -7,7 +7,7 @@ const Home = () => {
 
   // Put your profile picture in public folder: name it profile.jpg (or profile.png and set profileImage to '/profile.png').
   // If the image is missing, the tech icons placeholder shows instead.
-  const profileImage = '/profile.jpg'
+  const profileImage = '/profile.jpeg'
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -106,3 +106,4 @@ const Home = () => {
 }
 
 export default Home
+
