@@ -5,35 +5,35 @@ import './Projects.css'
 // Add more projects by pushing to backendProjects or frontendProjects arrays
 const backendProjects = [
   {
-    title: 'E-Commerce Backend API',
-    description: 'A robust RESTful API built with PHP and MySQL for an e-commerce platform. Features include user authentication, product management, order processing, and payment integration.',
-    tags: ['PHP', 'MySQL', 'REST API', 'Backend'],
+    title: 'Gym Sync',
+    description: 'A robust RESTful API built with PHP and MySQL, My Capstone Project. Features include user authentication, member management, coach management, and user to coach interaction via mobile app.',
+    tags: ['PHP', 'MySQL', 'REST API', 'Backend','Dart'],
     githubUrl: '#',
-    demoUrl: '#'
+    demoUrl: 'https://antm.helioho.st/GymSync/login.php'
   },
   {
-    title: 'Student Information System',
-    description: 'Complete backend system for managing student records, grades, and academic information. Built with PHP and MySQL with secure authentication and role-based access.',
-    tags: ['PHP', 'MySQL', 'Backend', 'System'],
+    title: 'Tata-Joy Rice Trading',
+    description: 'The website features a clean, modern design with natural tones by colors schemes requested by the company, creating a professional and trustworthy feel.',
+    tags: ['PHP', 'CSS', 'Blog'],
     githubUrl: '#',
-    demoUrl: '#'
+    demoUrl: 'https://antm.helioho.st/frontend-dev/TataJoyWebsite/index.php'
   }
 ]
 
 const frontendProjects = [
   {
-    title: 'Portfolio Website',
-    description: 'Modern, responsive portfolio website showcasing projects and skills. Built with React, clean code architecture, and optimized for performance and SEO.',
-    tags: ['React', 'Frontend', 'Responsive', 'Design'],
+    title: 'Tata-Joy Rice Trading',
+    description: 'The website features a clean, modern design with natural tones by colors schemes requested by the company, creating a professional and trustworthy feel.',
+    tags: ['CSS', 'Frontend', 'Responsive', 'Design'],
     githubUrl: '#',
-    demoUrl: '#'
+    demoUrl: 'https://antm.helioho.st/frontend-dev/TataJoyWebsite/index.php'
   },
   {
-    title: 'Task Management Dashboard',
-    description: 'A responsive web dashboard for task and project management. Features include drag-and-drop, real-time updates, and an intuitive UI built with modern frontend tools.',
-    tags: ['JavaScript', 'Frontend', 'UI/UX', 'Dashboard'],
+    title: 'Photography Portfolio Website',
+    description: 'A photo portfolio website, It features a compiled collection of my Photos taken from my phone. It has a modern, responsive design using PHP for structure and CSS for styling .',
+    tags: ['Images', 'Frontend', 'UI/UX', 'Dashboard'],
     githubUrl: '#',
-    demoUrl: '#'
+    demoUrl: 'https://antm.helioho.st/frontend-dev/photowebsite/index.php'
   },
   {
     title: 'E-Commerce Frontend',
@@ -129,3 +129,4 @@ const Projects = () => {
 }
 
 export default Projects
+
