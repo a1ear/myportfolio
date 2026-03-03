@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { FaGithub, FaExternalLinkAlt, FaServer, FaGlobe } from 'react-icons/fa'
 import './Projects.css'
 
-// Add more projects by pushing to backendProjects or frontendProjects arrays
+
 const backendProjects = [
   {
     title: 'Gym Sync',
@@ -128,6 +128,7 @@ const Projects = () => {
 }
 
 export default Projects
+
 
 
 
