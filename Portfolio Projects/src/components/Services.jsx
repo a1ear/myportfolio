@@ -4,7 +4,7 @@ import {
   FaMobile, 
   FaPalette, 
   FaDatabase, 
-  FaCamera, 
+  FaSitemap, 
   FaVideo,
   FaServer,
   FaPaintBrush
@@ -109,5 +109,6 @@ const Services = () => {
 }
 
 export default Services
+
 
 
