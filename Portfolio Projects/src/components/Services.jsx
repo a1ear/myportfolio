@@ -70,10 +70,10 @@ const Services = () => {
       features: ['Video Production', 'Post-Production', 'Color Grading', 'Motion Graphics']
     },
     {
-      icon: <FaCamera />,
-      title: 'Photography',
-      description: 'High-quality photography services for events, portraits, products, and creative projects with professional editing.',
-      features: ['Event Photography', 'Portrait Sessions', 'Product Photography', 'Photo Editing']
+      icon: <FaSitemap />,
+      title: 'Frontend Development',
+      description: 'Front-End Developer specializing in React and Modern CSS to build elegant, responsive, and scalable digital solutions..',
+      features: ['CSS', 'HTML5', 'Bootstrap', 'ReactJS']
     }
   ]
 
@@ -109,4 +109,5 @@ const Services = () => {
 }
 
 export default Services
+
 
